@@ -20,7 +20,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libgpustats \
-    libqmiservices \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
@@ -30,13 +29,9 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     PowerOffAlarm \
-    datastatusnotification \
     dpmserviceapp \
-    imssettings \
     WfdCommon \
-    chargeonlymode \
-    uceShimService \
-    embms
+    chargeonlymode
 
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-acdb.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-adsp.mk)
