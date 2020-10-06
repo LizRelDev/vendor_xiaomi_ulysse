@@ -30,12 +30,9 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     PowerOffAlarm \
-    QtiTelephonyService \
     datastatusnotification \
     dpmserviceapp \
-    ims \
     imssettings \
-    qcrilmsgtunnel \
     WfdCommon \
     chargeonlymode \
     uceShimService \
@@ -64,7 +61,8 @@ $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-gps.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-gpu_firmware.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-graphics.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-graphics_sdm.mk)
-$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ims.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ims_p.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ims_q.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ipacm.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-keystore.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-latency.mk)
@@ -75,10 +73,11 @@ $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-perf_co
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-perf.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-peripheral_manager.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-postprocessing.mk)
-$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qcril.mk)
-$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qmi.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qmi_p.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qmi_q.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qtee.mk)
-$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ril.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ril_p.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ril_q.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-sensors.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-thermal.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-time.mk)
